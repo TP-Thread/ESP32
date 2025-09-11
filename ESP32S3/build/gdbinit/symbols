@@ -13,8 +13,8 @@ end
 
 # Load bootloader symbols
 set confirm off
-    add-symbol-file E:/ESP32/ESP32S3/build/bootloader/bootloader.elf
+    add-symbol-file E:/MCU/ESP32/ESP32S3/build/bootloader/bootloader.elf
 set confirm on
 
 # Load application symbols
-file E:/ESP32/ESP32S3/build/ESP32S3.elf
+file E:/MCU/ESP32/ESP32S3/build/ESP32S3.elf

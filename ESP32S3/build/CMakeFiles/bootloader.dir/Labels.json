@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "E:/ESP32/ESP32S3/build/CMakeFiles/bootloader"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/CMakeFiles/bootloader.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "E:/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "E:/MCU/ESP32/ESP32S3/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

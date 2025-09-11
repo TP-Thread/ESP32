@@ -1,2 +1,2 @@
-source E:/ESP32/ESP32S3/build/gdbinit/symbols
-source E:/ESP32/ESP32S3/build/gdbinit/connect
+source E:/MCU/ESP32/ESP32S3/build/gdbinit/symbols
+source E:/MCU/ESP32/ESP32S3/build/gdbinit/connect

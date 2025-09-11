@@ -1,4 +1,4 @@
-# Install script for directory: E:/ESP32/ESP32S3
+# Install script for directory: E:/MCU/ESP32/ESP32S3
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/ESP32/ESP32S3/build/esp-idf/cmake_install.cmake")
+  include("E:/MCU/ESP32/ESP32S3/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "E:/ESP32/ESP32S3/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "E:/MCU/ESP32/ESP32S3/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

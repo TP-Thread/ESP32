@@ -17,4 +17,4 @@ set confirm off
 set confirm on
 
 # Load application symbols
-file E:/ESP32/ESP32S3/build/bootloader/bootloader.elf
+file E:/MCU/ESP32/ESP32S3/build/bootloader/bootloader.elf

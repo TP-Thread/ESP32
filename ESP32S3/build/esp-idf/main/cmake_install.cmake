@@ -1,4 +1,4 @@
-# Install script for directory: E:/ESP32/ESP32S3/main
+# Install script for directory: E:/MCU/ESP32/ESP32S3/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
