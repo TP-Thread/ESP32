@@ -6,9 +6,9 @@
 #include "driver/uart_select.h"
 #include "driver/gpio.h"
 
-#define UART_UX UART_NUM_0
-#define UART_TX_GPIO_PIN GPIO_NUM_43
-#define UART_RX_GPIO_PIN GPIO_NUM_44
+#define UART0 UART_NUM_0
+#define UART_TX_PIN GPIO_NUM_43
+#define UART_RX_PIN GPIO_NUM_44
 
 #define RX_BUF_SIZE 1024
 #define TX_BUF_SIZE 1024

@@ -24,14 +24,14 @@ void app_main(void)
 
     while (1)
     {
-        uart_get_buffered_data_len(UART_UX, (size_t *)&len); /* 获取环形缓冲区数据长度 */
+        uart_get_buffered_data_len(UART0, (size_t *)&len); /* 获取环形缓冲区数据长度 */
 
         if (len > 0)
         {
             memset(data, 0, RX_BUF_SIZE); /* 对缓冲区清零 */
             printf("您发送的消息为:\r\n");
-            uart_read_bytes(UART_UX, data, len, 100);                                  /* 读数据 */
-            uart_write_bytes(UART_UX, (const char *)data, strlen((const char *)data)); /* 写数据 */
+            uart_read_bytes(UART0, data, len, 100);                                  /* 读数据 */
+            uart_write_bytes(UART0, (const char *)data, strlen((const char *)data)); /* 写数据 */
         }
         else
         {

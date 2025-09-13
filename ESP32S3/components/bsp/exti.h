@@ -5,7 +5,7 @@
 #include "driver/gpio.h"
 #include "led.h"
 
-#define BOOT_INT_GPIO_PIN GPIO_NUM_0
+#define BOOT_PIN GPIO_NUM_0
 
 void exti_init(void);
 

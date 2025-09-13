@@ -3,7 +3,7 @@
 
 #include "driver/gpio.h"
 
-#define LED_GPIO_PIN GPIO_NUM_1
+#define LED_PIN GPIO_NUM_1
 
 enum GPIO_OUTPUT_STATE
 {
@@ -11,9 +11,9 @@ enum GPIO_OUTPUT_STATE
     PIN_SET
 };
 
-#define led_on() gpio_set_level(LED_GPIO_PIN, PIN_RESET)
-#define led_off() gpio_set_level(LED_GPIO_PIN, PIN_SET)
-#define led_toggle() gpio_set_level(LED_GPIO_PIN, !gpio_get_level(LED_GPIO_PIN))
+#define led_on() gpio_set_level(LED_PIN, PIN_RESET)
+#define led_off() gpio_set_level(LED_PIN, PIN_SET)
+#define led_toggle() gpio_set_level(LED_PIN, !gpio_get_level(LED_PIN))
 
 void led_init(void);
 

@@ -19,7 +19,7 @@ static void IRAM_ATTR exti_gpio_isr_handler(void *arg)
 {
     uint32_t gpio_num = (uint32_t)arg;
 
-    if (gpio_num == BOOT_INT_GPIO_PIN)
+    if (gpio_num == BOOT_PIN)
     {
         led_toggle();
     }
@@ -35,11 +35,11 @@ void exti_init(void)
     gpio_config_t gpio_init_struct;
 
     /* 配置BOOT引脚和外部中断 */
-    gpio_init_struct.pin_bit_mask = 1ull << BOOT_INT_GPIO_PIN; /* 配置BOOT按键引脚 */
-    gpio_init_struct.mode = GPIO_MODE_INPUT;                   /* 选择为输入模式 */
-    gpio_init_struct.pull_up_en = GPIO_PULLUP_ENABLE;          /* 上拉使能 */
-    gpio_init_struct.pull_down_en = GPIO_PULLDOWN_DISABLE;     /* 下拉失能 */
-    gpio_init_struct.intr_type = GPIO_INTR_NEGEDGE;            /* 下降沿触发 */
+    gpio_init_struct.pin_bit_mask = 1ull << BOOT_PIN;      /* 配置BOOT按键引脚 */
+    gpio_init_struct.mode = GPIO_MODE_INPUT;               /* 选择为输入模式 */
+    gpio_init_struct.pull_up_en = GPIO_PULLUP_ENABLE;      /* 上拉使能 */
+    gpio_init_struct.pull_down_en = GPIO_PULLDOWN_DISABLE; /* 下拉失能 */
+    gpio_init_struct.intr_type = GPIO_INTR_NEGEDGE;        /* 下降沿触发 */
 
     gpio_config(&gpio_init_struct); /* 配置使能 */
 
@@ -47,5 +47,5 @@ void exti_init(void)
     gpio_install_isr_service(0);
 
     /* 设置GPIO的中断回调函数 */
-    gpio_isr_handler_add(BOOT_INT_GPIO_PIN, exti_gpio_isr_handler, (void *)BOOT_INT_GPIO_PIN);
+    gpio_isr_handler_add(BOOT_PIN, exti_gpio_isr_handler, (void *)BOOT_PIN);
 }

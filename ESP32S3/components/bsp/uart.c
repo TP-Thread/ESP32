@@ -27,11 +27,11 @@ void uart_init(uint32_t baudrate)
     uart_config.source_clk = UART_SCLK_APB;           /* 配置时钟源 */
     uart_config.rx_flow_ctrl_thresh = 122;            /* 硬件控制流阈值 */
 
-    uart_param_config(UART_UX, &uart_config); /* 配置uart端口 */
+    uart_param_config(UART0, &uart_config); /* 配置uart端口 */
 
     /* 配置uart引脚 */
-    uart_set_pin(UART_UX, UART_TX_GPIO_PIN, UART_RX_GPIO_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
+    uart_set_pin(UART0, UART_TX_PIN, UART_RX_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
 
     /* 安装串口驱动 */
-    uart_driver_install(UART_UX, RX_BUF_SIZE * 2, TX_BUF_SIZE * 2, 20, NULL, 0);
+    uart_driver_install(UART0, RX_BUF_SIZE * 2, TX_BUF_SIZE * 2, 20, NULL, 0);
 }
