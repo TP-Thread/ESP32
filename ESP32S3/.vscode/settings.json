@@ -20,6 +20,7 @@
     "files.associations": {
         "led.h": "c",
         "gpio.h": "c",
-        "exti.h": "c"
+        "exti.h": "c",
+        "inttypes.h": "c"
     }
 }
