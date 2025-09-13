@@ -21,6 +21,7 @@
         "led.h": "c",
         "gpio.h": "c",
         "exti.h": "c",
-        "inttypes.h": "c"
+        "inttypes.h": "c",
+        "uart.h": "c"
     }
 }
