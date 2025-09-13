@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "ESP32S3",
-    "project_version":    "7622e32-dirty",
+    "project_version":    "bb73054-dirty",
     "project_path":       "E:/MCU/ESP32/ESP32S3",
     "idf_path":           "D:/EIDE/ESP/v5.5.1/esp-idf",
     "build_dir":          "E:/MCU/ESP32/ESP32S3/build",
@@ -85,7 +85,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/libbsp.a",
-            "sources": [ "E:/MCU/ESP32/ESP32S3/components/bsp/led.c", "E:/MCU/ESP32/ESP32S3/components/bsp/exti.c", "E:/MCU/ESP32/ESP32S3/components/bsp/uart.c" ],
+            "sources": [ "E:/MCU/ESP32/ESP32S3/components/bsp/key.c", "E:/MCU/ESP32/ESP32S3/components/bsp/led.c", "E:/MCU/ESP32/ESP32S3/components/bsp/exti.c", "E:/MCU/ESP32/ESP32S3/components/bsp/uart.c" ],
             "include_dirs": [ "." ]
         },
         "cxx": {

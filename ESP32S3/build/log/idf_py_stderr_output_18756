@@ -1,1 +1,0 @@
-Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=d:\EIDE\ESP\Tools\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DSDKCONFIG='e:\MCU\ESP32\ESP32S3\sdkconfig' -DCCACHE_ENABLE=1 E:\MCU\ESP32\ESP32S3
