@@ -23,5 +23,5 @@ void led_init(void)
     gpio_init_struct.pin_bit_mask = 1ull << LED_GPIO_PIN;  /* 设置的引脚的位掩码 */
     gpio_config(&gpio_init_struct);                        /* 配置GPIO */
 
-    LED(1); /* 关闭LED */
+    led_off(); /* 关闭LED */
 }

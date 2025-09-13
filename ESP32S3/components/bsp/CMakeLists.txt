@@ -1,11 +1,3 @@
-set(src_dirs ".")
-
-set(inc_dirs ".")
-
-set(requires driver)
-
-idf_component_register(SRC_DIRS ${src_dirs}
-                    INCLUDE_DIRS ${inc_dirs}
-                    REQUIRES ${requires})
-
-component_compile_options(-ffast-math -O3 -Wno-error=format=-Wno-format)
+idf_component_register(SRCS "led.c"
+                    INCLUDE_DIRS "."
+                    REQUIRES driver)
