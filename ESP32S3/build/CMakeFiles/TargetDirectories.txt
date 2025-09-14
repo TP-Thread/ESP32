@@ -501,6 +501,13 @@ E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/CMakeFiles/list_install_components.dir
 E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/CMakeFiles/install.dir
 E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/CMakeFiles/install/local.dir
 E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/CMakeFiles/install/strip.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/__idf_nvs_flash.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/edit_cache.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/rebuild_cache.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/list_install_components.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/install.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/install/local.dir
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/CMakeFiles/install/strip.dir
 E:/MCU/ESP32/ESP32S3/build/esp-idf/main/CMakeFiles/__idf_main.dir
 E:/MCU/ESP32/ESP32S3/build/esp-idf/main/CMakeFiles/edit_cache.dir
 E:/MCU/ESP32/ESP32S3/build/esp-idf/main/CMakeFiles/rebuild_cache.dir

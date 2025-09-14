@@ -30,12 +30,13 @@ E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_app_format/libesp_app_format.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_mm/libesp_mm.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_mm/libesp_mm.a
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/libnvs_flash.a
+E:/MCU/ESP32/ESP32S3/build/esp-idf/mbedtls/libmbedtls.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_security/libesp_security.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/pthread/libpthread.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_driver_gpio/libesp_driver_gpio.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_timer/libesp_timer.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_pm/libesp_pm.a
-E:/MCU/ESP32/ESP32S3/build/esp-idf/mbedtls/libmbedtls.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_app_format/libesp_app_format.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_bootloader_format/libesp_bootloader_format.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/app_update/libapp_update.a
@@ -92,5 +93,6 @@ E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_driver_usb_serial_jtag/libesp_driver_usb_
 E:/MCU/ESP32/ESP32S3/build/esp-idf/esp_driver_twai/libesp_driver_twai.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/libbsp.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/driver/libdriver.a
+E:/MCU/ESP32/ESP32S3/build/esp-idf/nvs_flash/libnvs_flash.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/main/libmain.a
 E:/MCU/ESP32/ESP32S3/build/esp-idf/bsp/libbsp.a

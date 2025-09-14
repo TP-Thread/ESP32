@@ -22,6 +22,8 @@
         "gpio.h": "c",
         "exti.h": "c",
         "inttypes.h": "c",
-        "uart.h": "c"
+        "uart.h": "c",
+        "esp_flash.h": "c",
+        "nvs_flash.h": "c"
     }
 }

@@ -8,19 +8,26 @@
 
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "nvs_flash.h"
+#include "esp_flash.h"
 #include "led.h"
 #include "exti.h"
 #include "uart.h"
 
 void app_main(void)
 {
+    uint32_t flash_size;
     uint8_t len = 0;
     uint16_t times = 0;
     unsigned char data[RX_BUF_SIZE] = {0};
 
+    nvs_flash_init();
     led_init();
     exti_init();
     uart_init(115200);
+
+    esp_flash_get_size(NULL, &flash_size);
+    printf("FLASH size:%ld MB flash\n", flash_size / (1024 * 1024)); /* 获取FLASH大小并显示 */
 
     while (1)
     {
