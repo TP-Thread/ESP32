@@ -1,8 +1,8 @@
-# Install script for directory: D:/EIDE/ESP/v5.5.1/esp-idf/components/esp_driver_twai
+# Install script for directory: D:/EIDE/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_twai
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/ESP32S3")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/esp32s3")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,6 +34,6 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "D:/EIDE/ESP/Tools/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump.exe")
+  set(CMAKE_OBJDUMP "D:/EIDE/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20260121/xtensa-esp-elf/bin/xtensa-esp32s3-elf-objdump.exe")
 endif()
 
